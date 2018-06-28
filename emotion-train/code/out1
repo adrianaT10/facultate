@@ -1,0 +1,66 @@
+(227, 227, 3)
+[[  5.99853955e-02   2.56717741e-01   1.94434524e-02   6.07527137e-01
+    5.00311106e-02   5.89402299e-03   4.01188183e-04]]
+/home/adriana/Documents/emotion-train/input/test/angry.jpg
+3
+-------
+(227, 227, 3)
+[[ 0.00158075  0.78583908  0.00816523  0.19360754  0.00667706  0.00324387
+   0.00088659]]
+/home/adriana/Documents/emotion-train/input/test/anger1.jpg
+1
+-------
+(227, 227, 3)
+[[  3.76961636e-03   7.95540452e-01   2.00075537e-01   3.62293737e-04
+    2.34724022e-04   2.94539882e-06   1.44414334e-05]]
+/home/adriana/Documents/emotion-train/input/test/contempt-subtle.jpg
+1
+-------
+(227, 227, 3)
+[[  2.44746925e-08   2.22478666e-05   4.05585654e-09   9.99865532e-01
+    4.64666982e-06   4.61948548e-05   6.13191150e-05]]
+/home/adriana/Documents/emotion-train/input/test/surprise.jpg
+3
+-------
+(227, 227, 3)
+[[  9.57349766e-06   9.65806305e-01   5.10638620e-06   2.96302028e-02
+    4.54808353e-03   5.50934267e-08   8.19566594e-07]]
+/home/adriana/Documents/emotion-train/input/test/disgust.jpg
+1
+-------
+(227, 227, 3)
+[[ 0.03621234  0.23997019  0.3548041   0.09985616  0.00507537  0.16901308
+   0.0950688 ]]
+/home/adriana/Documents/emotion-train/input/test/disgust-3.jpg
+2
+-------
+(227, 227, 3)
+[[  7.73927331e-06   9.99765933e-01   4.64772666e-06   2.41525709e-06
+    1.37688733e-06   2.16488421e-04   1.37539917e-06]]
+/home/adriana/Documents/emotion-train/input/test/disgust-2.jpg
+1
+-------
+(227, 227, 3)
+[[  2.96132150e-08   6.18235150e-04   3.20574678e-08   6.33304119e-01
+    2.60829050e-02   4.77332687e-05   3.39947045e-01]]
+/home/adriana/Documents/emotion-train/input/test/dp.surprised-happy-woman_1_sm.jpg
+3
+-------
+(227, 227, 3)
+[[  4.10576053e-02   9.42103386e-01   9.75538697e-03   4.19815711e-04
+    7.09560758e-04   4.35042894e-03   1.60389184e-03]]
+/home/adriana/Documents/emotion-train/input/test/happy-bradley-cooper.jpg
+1
+-------
+(227, 227, 3)
+[[  7.58289471e-02   9.12420511e-01   2.76980572e-04   8.30035377e-03
+    8.77404236e-04   2.16304953e-03   1.32598230e-04]]
+/home/adriana/Documents/emotion-train/input/test/contempt2.jpg
+1
+-------
+(227, 227, 3)
+[[  1.06067699e-03   9.96928155e-01   5.81317763e-05   9.81261473e-05
+    4.77863272e-04   1.21391634e-03   1.63174118e-04]]
+/home/adriana/Documents/emotion-train/input/test/rima-sad-face.jpg
+1
+-------

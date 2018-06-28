@@ -1,0 +1,1 @@
+/home/adriana/Programs/caffe/build/tools/compute_image_mean -backend=lmdb /home/adriana/Documents/emotion-train/input/train_lmdb /home/adriana/Documents/emotion-train/input/mean.binaryproto

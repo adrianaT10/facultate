@@ -1,0 +1,49 @@
+[[  1.60314888e-02   9.45640981e-01   1.36612263e-02   2.20945030e-02
+    2.46768212e-03   4.06562649e-05   6.36284385e-05]]
+/home/adriana/Documents/emotion-train/input/test/angry.jpg
+1
+-------
+[[  9.91722763e-01   7.34171271e-03   1.87891026e-04   6.25847897e-04
+    1.56533588e-06   1.04360202e-04   1.58947478e-05]]
+/home/adriana/Documents/emotion-train/input/test/anger1.jpg
+0
+-------
+No face detected
+[[  2.37436077e-04   2.41079509e-01   4.49360705e-05   2.52237456e-04
+    9.33671174e-07   1.46797731e-06   7.58383512e-01]]
+/home/adriana/Documents/emotion-train/input/test/surprise.jpg
+6
+-------
+[[  9.72812006e-04   9.62404609e-01   1.20665376e-04   3.52275334e-02
+    4.30367683e-04   6.61660670e-06   8.37412779e-04]]
+/home/adriana/Documents/emotion-train/input/test/disgust.jpg
+1
+-------
+[[  2.66300477e-02   2.92449072e-02   1.29581019e-01   3.19019309e-04
+    4.63421544e-04   8.13355446e-01   4.06127947e-04]]
+/home/adriana/Documents/emotion-train/input/test/disgust-3.jpg
+5
+-------
+[[  1.56332518e-03   1.21956080e-01   8.75918806e-01   2.95595055e-05
+    5.96955651e-05   3.79623292e-04   9.28722293e-05]]
+/home/adriana/Documents/emotion-train/input/test/disgust-2.jpg
+2
+-------
+[[  5.98387442e-06   2.83393376e-02   8.13389852e-05   8.69725525e-01
+    8.58438462e-02   6.19401326e-05   1.59420539e-02]]
+/home/adriana/Documents/emotion-train/input/test/dp.surprised-happy-woman_1_sm.jpg
+3
+-------
+[[  2.29734648e-02   5.18189132e-01   1.71027437e-04   6.77301064e-02
+    3.90560746e-01   1.90978317e-04   1.84540331e-04]]
+/home/adriana/Documents/emotion-train/input/test/happy-bradley-cooper.jpg
+1
+-------
+[[  3.53820205e-01   6.45923138e-01   1.94929118e-04   2.92107597e-05
+    2.46154559e-05   1.66904317e-06   6.18915374e-06]]
+/home/adriana/Documents/emotion-train/input/test/contempt2.jpg
+1
+-------
+No face detected
+No face detected
+
