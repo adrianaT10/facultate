@@ -1,0 +1,19 @@
+<div class="list-group-item list-group-item-action flex-column align-items-center container" *ngIf="homework && display">
+  <div class="row justify-content-center">
+    <div class="col-5">
+      <h5>{{homework["homeworkName"]}}</h5>
+      <h6>{{homework["courseName"]}}</h6>
+    </div>
+
+    <div class="col-5 deadlines">
+      <div class="float-left">Deadline soft:&nbsp;</div> <div class="font-weight-bold float-left">{{homework["deadlineSoft"] | date:'dd-MM-yyyy'}}</div><br/>
+      <div>Deadline hard: {{homework["deadlineHard"] | date:'dd-MM-yyyy'}}</div>
+    </div>
+
+    <div class="col-2 erase text-muted">
+      <a href="#" (click)="eraseEntry()">Erase</a>
+    </div>
+  </div>
+
+
+</div>

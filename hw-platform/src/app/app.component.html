@@ -1,0 +1,106 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a href="#" class="navbar-brand">Homework Viewer</a>
+</nav>
+
+<!-- First 2 dropdowns-->
+<div class="container my-2">
+  <div class="row justify-content-md-center">
+
+    <div class="col-md-auto">
+      <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+          {{selectedYear || "Year"}}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#" *ngFor="let year of getYears()" (click)="selectYear(year)">{{year}}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-auto">
+      <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+          {{selectedSpecialisation || "Specialisation"}}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#" *ngFor="let specialisation of getSpecialisations()"
+             (click)="selectSpecialisation(specialisation)">{{specialisation}}</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Homework list -->
+<div *ngIf="homeworkList">
+  <div class="list-group my-3">
+    <homework-detail *ngFor="let h of homeworkList" [homework]="h" ></homework-detail>
+  </div>
+
+  <div class="d-flex justify-content-center mt-2">
+    <button (click)="showAddForm=true" class="btn btn-outline-dark justify-content-center">+</button>
+  </div>
+
+
+  <!-- Add new homework form -->
+  <div *ngIf="showAddForm">
+    <div class="container my-2">
+
+      <!-- Dropdowns -->
+      <div class="row justify-content-center">
+
+        <div class="col-md-auto">
+          <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              {{selectedYearForm || "Year"}}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" *ngFor="let year of getYears()" (click)="selectYearForm(year)">{{year}}</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-auto">
+          <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              {{selectedSpecialisationForm || "Specialisation"}}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" *ngFor="let specialisation of getSpecialisationsForm()"
+                 (click)="selectSpecialisationForm(specialisation)">{{specialisation}}</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-auto">
+          <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+              {{selectedCourseForm || "Course"}}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" *ngFor="let course of courses"
+                 (click)="selectCourseForm(course)">{{course}}</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Submit -->
+      <div class="d-flex justify-content-center mt-2">
+        <button (click)="addNewHomework()" class="btn btn-outline-danger">Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+
