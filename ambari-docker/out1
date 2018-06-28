@@ -1,0 +1,75 @@
+18/05/20 12:47:38 INFO mapreduce.Job:  map 100% reduce 9%
+18/05/20 12:47:47 INFO mapreduce.Job:  map 100% reduce 14%
+18/05/20 12:48:03 INFO mapreduce.Job:  map 100% reduce 15%
+18/05/20 12:48:05 INFO mapreduce.Job:  map 100% reduce 18%
+18/05/20 12:49:05 INFO mapreduce.Job: Task Id : attempt_1526815357150_0002_r_000000_0, Status : FAILED
+Fail task attempt attempt_1526815357150_0002_r_000000_0 received from mapred (auth:SIMPLE) at 172.21.0.4
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+18/05/20 12:49:06 INFO mapreduce.Job:  map 100% reduce 9%
+18/05/20 12:49:13 INFO mapreduce.Job:  map 100% reduce 14%
+18/05/20 12:49:21 INFO mapreduce.Job:  map 100% reduce 38%
+18/05/20 12:49:21 INFO mapreduce.Job: Task Id : attempt_1526815357150_0002_r_000001_0, Status : FAILED
+Fail task attempt attempt_1526815357150_0002_r_000001_0 received from mapred (auth:SIMPLE) at 172.21.0.4
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+18/05/20 12:49:22 INFO mapreduce.Job:  map 100% reduce 5%
+18/05/20 12:49:23 INFO mapreduce.Job:  map 100% reduce 6%
+18/05/20 12:49:26 INFO mapreduce.Job:  map 100% reduce 8%
+18/05/20 12:49:32 INFO mapreduce.Job:  map 100% reduce 9%
+18/05/20 12:49:35 INFO mapreduce.Job:  map 100% reduce 10%
+18/05/20 12:49:36 INFO mapreduce.Job:  map 100% reduce 12%
+18/05/20 12:49:39 INFO mapreduce.Job:  map 100% reduce 14%
+18/05/20 12:49:57 INFO mapreduce.Job:  map 100% reduce 16%
+18/05/20 12:50:00 INFO mapreduce.Job:  map 100% reduce 18%
+18/05/20 12:51:07 INFO mapreduce.Job: Task Id : attempt_1526815357150_0002_r_000000_1, Status : FAILED
+Fail task attempt attempt_1526815357150_0002_r_000000_1 received from mapred (auth:SIMPLE) at 172.21.0.4
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+18/05/20 12:51:08 INFO mapreduce.Job:  map 100% reduce 9%
+18/05/20 12:51:16 INFO mapreduce.Job:  map 100% reduce 14%
+18/05/20 12:51:25 INFO mapreduce.Job:  map 100% reduce 16%
+18/05/20 12:51:28 INFO mapreduce.Job:  map 100% reduce 17%
+18/05/20 12:51:31 INFO mapreduce.Job:  map 100% reduce 18%
+18/05/20 12:54:10 INFO mapreduce.Job: Task Id : attempt_1526815357150_0002_m_000002_0, Status : FAILED
+Container killed by the ApplicationMaster.
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+Too Many fetch failures.Failing the attempt
+18/05/20 12:54:11 INFO mapreduce.Job:  map 98% reduce 18%
+18/05/20 12:56:00 INFO mapreduce.Job:  map 98% reduce 0%
+18/05/20 12:56:05 INFO mapreduce.Job:  map 80% reduce 0%
+18/05/20 12:56:09 INFO mapreduce.Job:  map 82% reduce 0%
+18/05/20 12:56:13 INFO mapreduce.Job:  map 85% reduce 0%
+18/05/20 12:56:17 INFO mapreduce.Job:  map 88% reduce 0%
+18/05/20 12:56:21 INFO mapreduce.Job:  map 90% reduce 0%
+18/05/20 12:56:24 INFO mapreduce.Job:  map 93% reduce 0%
+18/05/20 12:56:29 INFO mapreduce.Job:  map 95% reduce 0%
+18/05/20 12:56:33 INFO mapreduce.Job:  map 98% reduce 0%
+18/05/20 12:56:37 INFO mapreduce.Job:  map 100% reduce 0%
+18/05/20 12:56:45 INFO mapreduce.Job:  map 100% reduce 5%
+18/05/20 12:56:52 INFO mapreduce.Job:  map 100% reduce 6%
+18/05/20 12:56:55 INFO mapreduce.Job:  map 100% reduce 8%
+18/05/20 12:56:58 INFO mapreduce.Job:  map 100% reduce 10%
+18/05/20 12:57:01 INFO mapreduce.Job:  map 100% reduce 11%
+18/05/20 12:57:04 INFO mapreduce.Job:  map 100% reduce 22%
+18/05/20 12:57:07 INFO mapreduce.Job:  map 100% reduce 23%
+18/05/20 12:57:10 INFO mapreduce.Job:  map 100% reduce 24%
+18/05/20 12:57:13 INFO mapreduce.Job:  map 100% reduce 25%
+18/05/20 12:57:16 INFO mapreduce.Job:  map 100% reduce 26%
+18/05/20 12:57:22 INFO mapreduce.Job:  map 100% reduce 27%
+18/05/20 12:57:30 INFO mapreduce.Job:  map 100% reduce 28%
+18/05/20 12:57:36 INFO mapreduce.Job:  map 100% reduce 29%
+18/05/20 12:57:45 INFO mapreduce.Job:  map 100% reduce 30%
+18/05/20 12:57:51 INFO mapreduce.Job:  map 100% reduce 31%
+18/05/20 12:57:57 INFO mapreduce.Job:  map 100% reduce 32%
+
+
+# try to kill node manager, and then kill 2 reducers

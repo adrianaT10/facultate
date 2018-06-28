@@ -1,0 +1,16 @@
+Services:
+
+HDFS
+DataNode : 3 hosts
+NameNode : 9127989d402b
+NFSGateway : 0 host
+SNameNode : 9ddb3f417fca
+YARN + MapReduce2
+App Timeline Server : 9ddb3f417fca
+NodeManager : 2 hosts
+ResourceManager : 9ddb3f417fca
+ZooKeeper
+Server : 3 hosts
+Ambari Metrics
+Metrics Collector : ad6384273e86
+Grafana : 9127989d402b
