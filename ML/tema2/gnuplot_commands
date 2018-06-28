@@ -1,0 +1,5 @@
+set datafile separator ','
+plot 'train.log' with line title 'train acc', \
+	 'test.log' with line title 'test acc'
+pause 2
+reread
