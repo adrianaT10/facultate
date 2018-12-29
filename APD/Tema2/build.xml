@@ -1,0 +1,20 @@
+<project>
+
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin"/>
+    </target>
+
+    <target name="jar">
+        <jar destfile="mapreduce.jar" basedir="bin">
+            <manifest>
+                <attribute name="Main-Class" value="MapReduce"/>
+            </manifest>
+        </jar>
+    </target>
+
+</project>

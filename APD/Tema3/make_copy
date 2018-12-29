@@ -1,0 +1,11 @@
+build:
+	mpicc sudoku.c -o sudoku -lm
+clean:
+	rm sudoku
+	rm out*
+run-2:
+	sh test2.sh
+run-3:
+	sh test3.sh
+run-4:
+	sh test4.sh
