@@ -1,0 +1,800 @@
+
+#######################################################
+
+Test 0: tests/sample.in
+applying action ('Move', 1, 10)
+TIME 90
+Cleanable rooms [2, 3]
+RECONSTRUCTED PATH [('Move', 2, 5), 'Clean']
+applying action ('Move', 2, 5)
+TIME 85
+applying action Clean
+Clean cost 4
+TIME 81
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 1, 5), ('Move', 5, 3), 'Refill']
+applying action ('Move', 1, 5)
+TIME 76
+applying action ('Move', 5, 3)
+TIME 73
+applying action Refill
+TIME 72
+Cleanable rooms [3]
+RECONSTRUCTED PATH [('Move', 4, 2), ('Move', 3, 11), 'Clean']
+applying action ('Move', 4, 2)
+TIME 70
+applying action ('Move', 3, 11)
+TIME 59
+applying action Clean
+Clean cost 6
+TIME 53
+['Move(0,1)', 'Move(1,2)', 'Clean(2)', 'Move(2,1)', 'Move(1,5)', 'Refill(5)', 'Move(5,4)', 'Move(4,3)', 'Clean(3)']
+
+Final robot reward: 10
+
+Test 0 passed
+
+#######################################################
+
+Test 1: tests/test1.in
+applying action Clean
+Clean cost 52
+TIME 948
+Cleanable rooms [2, 3, 8, 10, 13, 15, 16, 17, 21]
+RECONSTRUCTED PATH [('Move', 13, 10), 'Clean']
+applying action ('Move', 13, 10)
+TIME 938
+applying action Clean
+Clean cost 77
+TIME 861
+Cleanable rooms [10, 17]
+RECONSTRUCTED PATH [('Move', 2, 5), ('Move', 9, 9), ('Move', 1, 1), 'Refill']
+applying action ('Move', 2, 5)
+TIME 856
+applying action ('Move', 9, 9)
+TIME 847
+applying action ('Move', 1, 1)
+TIME 846
+applying action Refill
+TIME 844
+Cleanable rooms [2, 3, 5, 6, 8, 10, 12, 14, 15, 16, 17, 20, 21, 26]
+RECONSTRUCTED PATH [('Move', 9, 1), ('Move', 8, 3), 'Clean']
+applying action ('Move', 9, 1)
+TIME 843
+applying action ('Move', 8, 3)
+TIME 840
+applying action Clean
+Clean cost 13
+TIME 827
+Cleanable rooms [6, 10, 17, 26]
+RECONSTRUCTED PATH [('Move', 9, 3), ('Move', 1, 1), 'Refill']
+applying action ('Move', 9, 3)
+TIME 824
+applying action ('Move', 1, 1)
+TIME 823
+applying action Refill
+TIME 821
+Cleanable rooms [2, 3, 5, 6, 10, 12, 14, 15, 16, 17, 20, 21, 26]
+RECONSTRUCTED PATH [('Move', 9, 1), ('Move', 2, 9), 'Clean']
+applying action ('Move', 9, 1)
+TIME 820
+applying action ('Move', 2, 9)
+TIME 811
+applying action Clean
+Clean cost 89
+TIME 722
+Cleanable rooms [6, 10, 14, 17, 21, 26]
+RECONSTRUCTED PATH [('Move', 9, 9), ('Move', 1, 1), 'Refill']
+applying action ('Move', 9, 9)
+TIME 713
+applying action ('Move', 1, 1)
+TIME 712
+applying action Refill
+TIME 710
+Cleanable rooms [3, 5, 6, 10, 12, 14, 15, 16, 17, 20, 21, 26]
+RECONSTRUCTED PATH [('Move', 11, 3), ('Move', 10, 12), 'Clean']
+applying action ('Move', 11, 3)
+TIME 707
+applying action ('Move', 10, 12)
+TIME 695
+applying action Clean
+Clean cost 15
+TIME 680
+Cleanable rooms [5, 6, 12, 14, 15, 17, 20, 21, 26]
+RECONSTRUCTED PATH [('Move', 26, 17), 'Clean']
+applying action ('Move', 26, 17)
+TIME 663
+applying action Clean
+Clean cost 80
+TIME 583
+Cleanable rooms [12, 17, 20, 21]
+RECONSTRUCTED PATH [('Move', 20, 10), 'Clean']
+applying action ('Move', 20, 10)
+TIME 573
+applying action Clean
+Clean cost 38
+TIME 535
+Cleanable rooms [17, 21]
+RECONSTRUCTED PATH [('Move', 2, 8), ('Move', 9, 9), ('Move', 1, 1), 'Refill']
+applying action ('Move', 2, 8)
+TIME 527
+applying action ('Move', 9, 9)
+TIME 518
+applying action ('Move', 1, 1)
+TIME 517
+applying action Refill
+TIME 515
+Cleanable rooms [3, 5, 6, 12, 14, 15, 16, 17, 21]
+RECONSTRUCTED PATH [('Move', 5, 16), 'Clean']
+applying action ('Move', 5, 16)
+TIME 499
+applying action Clean
+Clean cost 98
+TIME 401
+Cleanable rooms [3, 21]
+RECONSTRUCTED PATH [('Move', 1, 16), 'Refill']
+applying action ('Move', 1, 16)
+TIME 385
+applying action Refill
+TIME 383
+Cleanable rooms [3, 6, 12, 14, 15, 16, 17, 21]
+RECONSTRUCTED PATH [('Move', 9, 1), ('Move', 27, 4), ('Move', 17, 12), 'Clean']
+applying action ('Move', 9, 1)
+TIME 382
+applying action ('Move', 27, 4)
+TIME 378
+applying action ('Move', 17, 12)
+TIME 366
+applying action Clean
+Clean cost 41
+TIME 325
+Cleanable rooms [3, 6, 14, 15, 16, 21]
+RECONSTRUCTED PATH [('Move', 15, 23), 'Clean']
+applying action ('Move', 15, 23)
+TIME 302
+applying action Clean
+Clean cost 17
+TIME 285
+Cleanable rooms [21]
+RECONSTRUCTED PATH [('Move', 2, 15), ('Move', 9, 9), ('Move', 1, 1), 'Refill']
+applying action ('Move', 2, 15)
+TIME 270
+applying action ('Move', 9, 9)
+TIME 261
+applying action ('Move', 1, 1)
+TIME 260
+applying action Refill
+TIME 258
+Cleanable rooms [3, 6, 12, 14, 16, 21]
+RECONSTRUCTED PATH [('Move', 11, 3), ('Move', 7, 4), ('Move', 21, 15), 'Clean']
+applying action ('Move', 11, 3)
+TIME 255
+applying action ('Move', 7, 4)
+TIME 251
+applying action ('Move', 21, 15)
+TIME 236
+applying action Clean
+Clean cost 18
+TIME 218
+Cleanable rooms [3, 6, 12, 16]
+RECONSTRUCTED PATH [('Move', 12, 31), 'Clean']
+applying action ('Move', 12, 31)
+TIME 187
+applying action Clean
+Clean cost 96
+TIME 91
+Cleanable rooms [3, 6]
+RECONSTRUCTED PATH [('Move', 14, 17), ('Move', 23, 3), 'Refill']
+applying action ('Move', 14, 17)
+TIME 74
+applying action ('Move', 23, 3)
+TIME 71
+applying action Refill
+TIME 69
+Cleanable rooms [3, 6, 14, 16]
+RECONSTRUCTED PATH [('Move', 14, 3), 'Clean']
+applying action ('Move', 14, 3)
+TIME 66
+applying action Clean
+Clean cost 34
+TIME 32
+Cleanable rooms [3, 16]
+RECONSTRUCTED PATH [('Move', 23, 3), 'Refill']
+applying action ('Move', 23, 3)
+TIME 29
+applying action Refill
+TIME 27
+Cleanable rooms [3, 6, 16]
+No good move found
+['Clean(0)', 'Move(0,13)', 'Clean(13)', 'Move(13,2)', 'Move(2,9)', 'Move(9,1)', 'Refill(1)', 'Refill(1)', 'Move(1,9)', 'Move(9,8)', 'Clean(8)', 'Move(8,9)', 'Move(9,1)', 'Refill(1)', 'Refill(1)', 'Move(1,9)', 'Move(9,2)', 'Clean(2)', 'Move(2,9)', 'Move(9,1)', 'Refill(1)', 'Refill(1)', 'Move(1,11)', 'Move(11,10)', 'Clean(10)', 'Move(10,26)', 'Clean(26)', 'Move(26,20)', 'Clean(20)', 'Move(20,2)', 'Move(2,9)', 'Move(9,1)', 'Refill(1)', 'Refill(1)', 'Move(1,5)', 'Clean(5)', 'Move(5,1)', 'Refill(1)', 'Refill(1)', 'Move(1,9)', 'Move(9,27)', 'Move(27,17)', 'Clean(17)', 'Move(17,15)', 'Clean(15)', 'Move(15,2)', 'Move(2,9)', 'Move(9,1)', 'Refill(1)', 'Refill(1)', 'Move(1,11)', 'Move(11,7)', 'Move(7,21)', 'Clean(21)', 'Move(21,12)', 'Clean(12)', 'Move(12,14)', 'Move(14,23)', 'Refill(23)', 'Refill(23)', 'Move(23,14)', 'Clean(14)', 'Move(14,23)', 'Refill(23)', 'Refill(23)']
+
+Final robot reward: 668
+
+Test 1 passed
+
+#######################################################
+
+Test 2: tests/test2.in
+Cleanable rooms [10, 14, 15, 16, 18, 20, 22, 23, 25, 27, 30, 31]
+RECONSTRUCTED PATH [('Move', 11, 4), ('Move', 20, 1), 'Clean']
+applying action ('Move', 11, 4)
+TIME 796
+applying action ('Move', 20, 1)
+TIME 795
+applying action Clean
+Clean cost 64
+TIME 731
+Cleanable rooms [22, 25, 27]
+RECONSTRUCTED PATH [('Move', 25, 1), 'Clean']
+applying action ('Move', 25, 1)
+TIME 730
+applying action Clean
+Clean cost 78
+TIME 652
+Cleanable rooms [27]
+RECONSTRUCTED PATH [('Move', 14, 3), ('Move', 7, 1), 'Refill']
+applying action ('Move', 14, 3)
+TIME 649
+applying action ('Move', 7, 1)
+TIME 648
+applying action Refill
+TIME 646
+Cleanable rooms [10, 14, 15, 16, 18, 22, 23, 27, 30, 31]
+RECONSTRUCTED PATH [('Move', 14, 1), 'Clean']
+applying action ('Move', 14, 1)
+TIME 645
+applying action Clean
+Clean cost 72
+TIME 573
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 7, 1), 'Refill']
+applying action ('Move', 7, 1)
+TIME 572
+applying action Refill
+TIME 570
+Cleanable rooms [10, 15, 16, 18, 22, 23, 27, 30, 31]
+RECONSTRUCTED PATH [('Move', 30, 12), 'Clean']
+applying action ('Move', 30, 12)
+TIME 558
+applying action Clean
+Clean cost 99
+TIME 459
+Cleanable rooms [10, 31]
+RECONSTRUCTED PATH [('Move', 7, 12), 'Refill']
+applying action ('Move', 7, 12)
+TIME 447
+applying action Refill
+TIME 445
+Cleanable rooms [10, 15, 16, 18, 22, 23, 27, 31]
+RECONSTRUCTED PATH [('Move', 14, 1), ('Move', 25, 3), ('Move', 27, 9), 'Clean']
+applying action ('Move', 14, 1)
+TIME 444
+applying action ('Move', 25, 3)
+TIME 441
+applying action ('Move', 27, 9)
+TIME 432
+applying action Clean
+Clean cost 40
+TIME 392
+Cleanable rooms [15, 16, 18, 22, 31]
+RECONSTRUCTED PATH [('Move', 25, 9), ('Move', 20, 1), ('Move', 1, 13), ('Move', 31, 4), 'Clean']
+applying action ('Move', 25, 9)
+TIME 383
+applying action ('Move', 20, 1)
+TIME 382
+applying action ('Move', 1, 13)
+TIME 369
+applying action ('Move', 31, 4)
+TIME 365
+applying action Clean
+Clean cost 14
+TIME 351
+Cleanable rooms [15, 16, 18, 22]
+RECONSTRUCTED PATH [('Move', 1, 4), ('Move', 13, 2), ('Move', 18, 13), 'Clean']
+applying action ('Move', 1, 4)
+TIME 347
+applying action ('Move', 13, 2)
+TIME 345
+applying action ('Move', 18, 13)
+TIME 332
+applying action Clean
+Clean cost 62
+TIME 270
+Cleanable rooms [22]
+RECONSTRUCTED PATH [('Move', 13, 13), ('Move', 1, 2), ('Move', 6, 2), ('Move', 26, 3), 'Refill']
+applying action ('Move', 13, 13)
+TIME 257
+applying action ('Move', 1, 2)
+TIME 255
+applying action ('Move', 6, 2)
+TIME 253
+applying action ('Move', 26, 3)
+TIME 250
+applying action Refill
+TIME 248
+Cleanable rooms [10, 15, 16, 22, 23]
+RECONSTRUCTED PATH [('Move', 10, 16), 'Clean']
+applying action ('Move', 10, 16)
+TIME 232
+applying action Clean
+Clean cost 88
+TIME 144
+Cleanable rooms [15]
+RECONSTRUCTED PATH [('Move', 26, 16), 'Refill']
+applying action ('Move', 26, 16)
+TIME 128
+applying action Refill
+TIME 126
+Cleanable rooms [15, 16, 22, 23]
+RECONSTRUCTED PATH [('Move', 6, 3), ('Move', 3, 4), ('Move', 22, 13), 'Clean']
+applying action ('Move', 6, 3)
+TIME 123
+applying action ('Move', 3, 4)
+TIME 119
+applying action ('Move', 22, 13)
+TIME 106
+applying action Clean
+Clean cost 79
+TIME 27
+Cleanable rooms [15, 23]
+RECONSTRUCTED PATH [('Move', 3, 13), ('Move', 6, 4), ('Move', 26, 3), 'Refill']
+applying action ('Move', 3, 13)
+TIME 14
+applying action ('Move', 6, 4)
+TIME 10
+applying action ('Move', 26, 3)
+TIME 7
+applying action Refill
+TIME 5
+Cleanable rooms [15, 16, 23]
+No good move found
+['Move(0,11)', 'Move(11,20)', 'Clean(20)', 'Move(20,25)', 'Clean(25)', 'Move(25,14)', 'Move(14,7)', 'Refill(7)', 'Refill(7)', 'Move(7,14)', 'Clean(14)', 'Move(14,7)', 'Refill(7)', 'Refill(7)', 'Move(7,30)', 'Clean(30)', 'Move(30,7)', 'Refill(7)', 'Refill(7)', 'Move(7,14)', 'Move(14,25)', 'Move(25,27)', 'Clean(27)', 'Move(27,25)', 'Move(25,20)', 'Move(20,1)', 'Move(1,31)', 'Clean(31)', 'Move(31,1)', 'Move(1,13)', 'Move(13,18)', 'Clean(18)', 'Move(18,13)', 'Move(13,1)', 'Move(1,6)', 'Move(6,26)', 'Refill(26)', 'Refill(26)', 'Move(26,10)', 'Clean(10)', 'Move(10,26)', 'Refill(26)', 'Refill(26)', 'Move(26,6)', 'Move(6,3)', 'Move(3,22)', 'Clean(22)', 'Move(22,3)', 'Move(3,6)', 'Move(6,26)', 'Refill(26)', 'Refill(26)']
+
+Final robot reward: 596
+
+Test 2 passed
+
+#######################################################
+
+Test 3: tests/test3.in
+Cleanable rooms [2, 3, 4, 6, 7, 9, 10, 17, 18, 20, 22, 25, 27, 30, 31, 32, 38, 39, 40, 41, 43]
+RECONSTRUCTED PATH [('Move', 30, 1), 'Clean']
+applying action ('Move', 30, 1)
+TIME 899
+applying action Clean
+Clean cost 87
+TIME 812
+Cleanable rooms [3, 4, 7, 17, 27]
+RECONSTRUCTED PATH [('Move', 0, 1), ('Move', 15, 4), 'Refill']
+applying action ('Move', 0, 1)
+TIME 811
+applying action ('Move', 15, 4)
+TIME 807
+applying action Refill
+TIME 805
+Cleanable rooms [2, 3, 4, 6, 7, 9, 10, 17, 18, 20, 22, 25, 27, 31, 32, 38, 39, 40, 41, 43]
+RECONSTRUCTED PATH [('Move', 25, 1), 'Clean']
+applying action ('Move', 25, 1)
+TIME 804
+applying action Clean
+Clean cost 58
+TIME 746
+Cleanable rooms [3, 4, 7, 9, 17, 22, 27]
+RECONSTRUCTED PATH [('Move', 15, 1), 'Refill']
+applying action ('Move', 15, 1)
+TIME 745
+applying action Refill
+TIME 743
+Cleanable rooms [2, 3, 4, 6, 7, 9, 10, 17, 18, 20, 22, 27, 31, 32, 38, 39, 40, 41, 43]
+RECONSTRUCTED PATH [('Move', 0, 4), ('Move', 22, 4), 'Clean']
+applying action ('Move', 0, 4)
+TIME 739
+applying action ('Move', 22, 4)
+TIME 735
+applying action Clean
+Clean cost 71
+TIME 664
+Cleanable rooms [3, 7, 9, 17, 20, 31, 32, 38, 41, 43]
+RECONSTRUCTED PATH [('Move', 24, 4), ('Move', 6, 1), ('Move', 3, 2), 'Clean']
+applying action ('Move', 24, 4)
+TIME 660
+applying action ('Move', 6, 1)
+TIME 659
+applying action ('Move', 3, 2)
+TIME 657
+applying action Clean
+Clean cost 47
+TIME 610
+Cleanable rooms [7, 9, 17, 20, 31, 32, 38, 41, 43]
+RECONSTRUCTED PATH [('Move', 6, 2), ('Move', 38, 2), 'Clean']
+applying action ('Move', 6, 2)
+TIME 608
+applying action ('Move', 38, 2)
+TIME 606
+applying action Clean
+Clean cost 38
+TIME 568
+Cleanable rooms [7, 17]
+RECONSTRUCTED PATH [('Move', 6, 2), ('Move', 24, 1), ('Move', 22, 4), ('Move', 0, 4), ('Move', 15, 4), 'Refill']
+applying action ('Move', 6, 2)
+TIME 566
+applying action ('Move', 24, 1)
+TIME 565
+applying action ('Move', 22, 4)
+TIME 561
+applying action ('Move', 0, 4)
+TIME 557
+applying action ('Move', 15, 4)
+TIME 553
+applying action Refill
+TIME 551
+Cleanable rooms [2, 4, 6, 7, 9, 10, 17, 18, 20, 27, 31, 32, 39, 40, 41, 43]
+RECONSTRUCTED PATH [('Move', 0, 4), ('Move', 30, 1), ('Move', 12, 3), ('Move', 18, 2), 'Clean']
+applying action ('Move', 0, 4)
+TIME 547
+applying action ('Move', 30, 1)
+TIME 546
+applying action ('Move', 12, 3)
+TIME 543
+applying action ('Move', 18, 2)
+TIME 541
+applying action Clean
+Clean cost 53
+TIME 488
+Cleanable rooms [9, 27, 43]
+RECONSTRUCTED PATH [('Move', 43, 9), 'Clean']
+applying action ('Move', 43, 9)
+TIME 479
+applying action Clean
+Clean cost 91
+TIME 388
+Cleanable rooms [27]
+RECONSTRUCTED PATH [('Move', 0, 7), ('Move', 15, 4), 'Refill']
+applying action ('Move', 0, 7)
+TIME 381
+applying action ('Move', 15, 4)
+TIME 377
+applying action Refill
+TIME 375
+Cleanable rooms [2, 4, 6, 7, 9, 10, 17, 20, 27, 31, 32, 39, 40, 41]
+RECONSTRUCTED PATH [('Move', 25, 1), ('Move', 9, 12), 'Clean']
+applying action ('Move', 25, 1)
+TIME 374
+applying action ('Move', 9, 12)
+TIME 362
+applying action Clean
+Clean cost 46
+TIME 316
+Cleanable rooms [2, 4, 6, 7, 10, 17, 20, 27, 32, 39, 40, 41]
+RECONSTRUCTED PATH [('Move', 32, 12), 'Clean']
+applying action ('Move', 32, 12)
+TIME 304
+applying action Clean
+Clean cost 77
+TIME 227
+Cleanable rooms [4, 17, 27, 39]
+RECONSTRUCTED PATH [('Move', 5, 8), ('Move', 27, 8), 'Clean']
+applying action ('Move', 5, 8)
+TIME 219
+applying action ('Move', 27, 8)
+TIME 211
+applying action Clean
+Clean cost 54
+TIME 157
+Cleanable rooms [4, 17, 39]
+RECONSTRUCTED PATH [('Move', 5, 8), ('Move', 13, 8), ('Move', 4, 1), 'Clean']
+applying action ('Move', 5, 8)
+TIME 149
+applying action ('Move', 13, 8)
+TIME 141
+applying action ('Move', 4, 1)
+TIME 140
+applying action Clean
+Clean cost 36
+TIME 104
+Cleanable rooms [17]
+RECONSTRUCTED PATH [('Move', 17, 10), 'Clean']
+applying action ('Move', 17, 10)
+TIME 94
+applying action Clean
+Clean cost 47
+TIME 47
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 43, 7), ('Move', 0, 7), ('Move', 15, 4), 'Refill']
+applying action ('Move', 43, 7)
+TIME 40
+applying action ('Move', 0, 7)
+TIME 33
+applying action ('Move', 15, 4)
+TIME 29
+applying action Refill
+TIME 27
+Cleanable rooms [2, 6, 7, 10, 20, 31, 39, 40, 41]
+No good move found
+['Move(0,30)', 'Clean(30)', 'Move(30,0)', 'Move(0,15)', 'Refill(15)', 'Refill(15)', 'Move(15,25)', 'Clean(25)', 'Move(25,15)', 'Refill(15)', 'Refill(15)', 'Move(15,0)', 'Move(0,22)', 'Clean(22)', 'Move(22,24)', 'Move(24,6)', 'Move(6,3)', 'Clean(3)', 'Move(3,6)', 'Move(6,38)', 'Clean(38)', 'Move(38,6)', 'Move(6,24)', 'Move(24,22)', 'Move(22,0)', 'Move(0,15)', 'Refill(15)', 'Refill(15)', 'Move(15,0)', 'Move(0,30)', 'Move(30,12)', 'Move(12,18)', 'Clean(18)', 'Move(18,43)', 'Clean(43)', 'Move(43,0)', 'Move(0,15)', 'Refill(15)', 'Refill(15)', 'Move(15,25)', 'Move(25,9)', 'Clean(9)', 'Move(9,32)', 'Clean(32)', 'Move(32,5)', 'Move(5,27)', 'Clean(27)', 'Move(27,5)', 'Move(5,13)', 'Move(13,4)', 'Clean(4)', 'Move(4,17)', 'Clean(17)', 'Move(17,43)', 'Move(43,0)', 'Move(0,15)', 'Refill(15)', 'Refill(15)']
+
+Final robot reward: 705
+
+Test 3 failed
+
+#######################################################
+
+Test 4: tests/test4.in
+applying action Clean
+Clean cost 14
+TIME 1486
+Cleanable rooms [15, 29, 87]
+RECONSTRUCTED PATH [('Move', 47, 4), ('Move', 44, 2), ('Move', 87, 4), 'Clean']
+applying action ('Move', 47, 4)
+TIME 1482
+applying action ('Move', 44, 2)
+TIME 1480
+applying action ('Move', 87, 4)
+TIME 1476
+applying action Clean
+Clean cost 91
+TIME 1385
+Cleanable rooms [15]
+RECONSTRUCTED PATH [('Move', 77, 7), ('Move', 9, 1), ('Move', 35, 7), ('Move', 15, 6), 'Clean']
+applying action ('Move', 77, 7)
+TIME 1378
+applying action ('Move', 9, 1)
+TIME 1377
+applying action ('Move', 35, 7)
+TIME 1370
+applying action ('Move', 15, 6)
+TIME 1364
+applying action Clean
+Clean cost 24
+TIME 1340
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 82, 3), ('Move', 73, 2), ('Move', 17, 9), ('Move', 69, 11), 'Refill']
+applying action ('Move', 82, 3)
+TIME 1337
+applying action ('Move', 73, 2)
+TIME 1335
+applying action ('Move', 17, 9)
+TIME 1326
+applying action ('Move', 69, 11)
+TIME 1315
+applying action Refill
+TIME 1313
+Cleanable rooms [1, 4, 7, 9, 14, 17, 18, 22, 23, 25, 26, 29, 30, 32, 37, 38, 40, 41, 47, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 73, 76, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 76, 8), 'Clean']
+applying action ('Move', 76, 8)
+TIME 1305
+applying action Clean
+Clean cost 90
+TIME 1215
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 69, 8), 'Refill']
+applying action ('Move', 69, 8)
+TIME 1207
+applying action Refill
+TIME 1205
+Cleanable rooms [1, 4, 7, 9, 14, 17, 18, 22, 23, 25, 26, 29, 30, 32, 37, 38, 40, 41, 47, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 73, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 17, 11), 'Clean']
+applying action ('Move', 17, 11)
+TIME 1194
+applying action Clean
+Clean cost 63
+TIME 1131
+Cleanable rooms [53, 89]
+RECONSTRUCTED PATH [('Move', 69, 11), 'Refill']
+applying action ('Move', 69, 11)
+TIME 1120
+applying action Refill
+TIME 1118
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 25, 26, 29, 30, 32, 37, 38, 40, 41, 47, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 73, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 72, 15), ('Move', 41, 4), 'Clean']
+applying action ('Move', 72, 15)
+TIME 1103
+applying action ('Move', 41, 4)
+TIME 1099
+applying action Clean
+Clean cost 73
+TIME 1026
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 72, 4), ('Move', 69, 15), 'Refill']
+applying action ('Move', 72, 4)
+TIME 1022
+applying action ('Move', 69, 15)
+TIME 1007
+applying action Refill
+TIME 1005
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 25, 26, 29, 30, 32, 37, 38, 40, 47, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 73, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 17, 11), ('Move', 5, 6), ('Move', 42, 1), ('Move', 25, 1), 'Clean']
+applying action ('Move', 17, 11)
+TIME 994
+applying action ('Move', 5, 6)
+TIME 988
+applying action ('Move', 42, 1)
+TIME 987
+applying action ('Move', 25, 1)
+TIME 986
+applying action Clean
+Clean cost 86
+TIME 900
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 42, 1), ('Move', 5, 1), ('Move', 17, 6), ('Move', 69, 11), 'Refill']
+applying action ('Move', 42, 1)
+TIME 899
+applying action ('Move', 5, 1)
+TIME 898
+applying action ('Move', 17, 6)
+TIME 892
+applying action ('Move', 69, 11)
+TIME 881
+applying action Refill
+TIME 879
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 26, 29, 30, 32, 37, 38, 40, 47, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 73, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 17, 11), ('Move', 73, 9), 'Clean']
+applying action ('Move', 17, 11)
+TIME 868
+applying action ('Move', 73, 9)
+TIME 859
+applying action Clean
+Clean cost 26
+TIME 833
+Cleanable rooms [47]
+RECONSTRUCTED PATH [('Move', 17, 9), ('Move', 44, 9), ('Move', 47, 2), 'Clean']
+applying action ('Move', 17, 9)
+TIME 824
+applying action ('Move', 44, 9)
+TIME 815
+applying action ('Move', 47, 2)
+TIME 813
+applying action Clean
+Clean cost 85
+TIME 728
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 44, 2), ('Move', 69, 18), 'Refill']
+applying action ('Move', 44, 2)
+TIME 726
+applying action ('Move', 69, 18)
+TIME 708
+applying action Refill
+TIME 706
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 26, 29, 30, 32, 37, 38, 40, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 44, 18), ('Move', 38, 2), 'Clean']
+applying action ('Move', 44, 18)
+TIME 688
+applying action ('Move', 38, 2)
+TIME 686
+applying action Clean
+Clean cost 79
+TIME 607
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 44, 2), ('Move', 69, 18), 'Refill']
+applying action ('Move', 44, 2)
+TIME 605
+applying action ('Move', 69, 18)
+TIME 587
+applying action Refill
+TIME 585
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 26, 29, 30, 32, 37, 40, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 77, 79, 80, 84, 85, 88, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 44, 18), ('Move', 88, 3), 'Clean']
+applying action ('Move', 44, 18)
+TIME 567
+applying action ('Move', 88, 3)
+TIME 564
+applying action Clean
+Clean cost 76
+TIME 488
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 44, 3), ('Move', 69, 18), 'Refill']
+applying action ('Move', 44, 3)
+TIME 485
+applying action ('Move', 69, 18)
+TIME 467
+applying action Refill
+TIME 465
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 26, 29, 30, 32, 37, 40, 48, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 71, 77, 79, 80, 84, 85, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 72, 15), ('Move', 41, 4), ('Move', 48, 2), 'Clean']
+applying action ('Move', 72, 15)
+TIME 450
+applying action ('Move', 41, 4)
+TIME 446
+applying action ('Move', 48, 2)
+TIME 444
+applying action Clean
+Clean cost 48
+TIME 396
+Cleanable rooms [29, 71]
+RECONSTRUCTED PATH [('Move', 41, 2), ('Move', 21, 8), ('Move', 71, 4), 'Clean']
+applying action ('Move', 41, 2)
+TIME 394
+applying action ('Move', 21, 8)
+TIME 386
+applying action ('Move', 71, 4)
+TIME 382
+applying action Clean
+Clean cost 51
+TIME 331
+Cleanable rooms [29]
+RECONSTRUCTED PATH [('Move', 83, 4), ('Move', 29, 8), 'Clean']
+applying action ('Move', 83, 4)
+TIME 327
+applying action ('Move', 29, 8)
+TIME 319
+applying action Clean
+Clean cost 22
+TIME 297
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 76, 20), ('Move', 69, 8), 'Refill']
+applying action ('Move', 76, 20)
+TIME 277
+applying action ('Move', 69, 8)
+TIME 269
+applying action Refill
+TIME 267
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 26, 30, 32, 37, 40, 49, 50, 51, 53, 55, 59, 60, 61, 62, 63, 65, 67, 68, 77, 79, 80, 84, 85, 89, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 44, 18), ('Move', 88, 3), ('Move', 3, 1), ('Move', 89, 1), 'Clean']
+applying action ('Move', 44, 18)
+TIME 249
+applying action ('Move', 88, 3)
+TIME 246
+applying action ('Move', 3, 1)
+TIME 245
+applying action ('Move', 89, 1)
+TIME 244
+applying action Clean
+Clean cost 45
+TIME 199
+Cleanable rooms [63]
+RECONSTRUCTED PATH [('Move', 3, 1), ('Move', 88, 1), ('Move', 44, 3), ('Move', 38, 2), ('Move', 21, 2), ('Move', 33, 1), ('Move', 58, 2), ('Move', 63, 2), 'Clean']
+applying action ('Move', 3, 1)
+TIME 198
+applying action ('Move', 88, 1)
+TIME 197
+applying action ('Move', 44, 3)
+TIME 194
+applying action ('Move', 38, 2)
+TIME 192
+applying action ('Move', 21, 2)
+TIME 190
+applying action ('Move', 33, 1)
+TIME 189
+applying action ('Move', 58, 2)
+TIME 187
+applying action ('Move', 63, 2)
+TIME 185
+applying action Clean
+Clean cost 52
+TIME 133
+Cleanable rooms []
+RECONSTRUCTED PATH [('Move', 5, 8), ('Move', 17, 6), ('Move', 69, 11), 'Refill']
+applying action ('Move', 5, 8)
+TIME 125
+applying action ('Move', 17, 6)
+TIME 119
+applying action ('Move', 69, 11)
+TIME 108
+applying action Refill
+TIME 106
+Cleanable rooms [1, 4, 7, 9, 14, 18, 22, 23, 26, 30, 32, 37, 40, 49, 50, 51, 53, 55, 59, 60, 61, 62, 65, 67, 68, 77, 79, 80, 84, 85, 90, 92, 93]
+RECONSTRUCTED PATH [('Move', 17, 11), ('Move', 5, 6), ('Move', 42, 1), ('Move', 25, 1), ('Move', 92, 4), 'Clean']
+applying action ('Move', 17, 11)
+TIME 95
+applying action ('Move', 5, 6)
+TIME 89
+applying action ('Move', 42, 1)
+TIME 88
+applying action ('Move', 25, 1)
+TIME 87
+applying action ('Move', 92, 4)
+TIME 83
+applying action Clean
+Clean cost 72
+TIME 11
+Cleanable rooms [18]
+No good move found
+['Clean(0)', 'Move(0,47)', 'Move(47,44)', 'Move(44,87)', 'Clean(87)', 'Move(87,77)', 'Move(77,9)', 'Move(9,35)', 'Move(35,15)', 'Clean(15)', 'Move(15,82)', 'Move(82,73)', 'Move(73,17)', 'Move(17,69)', 'Refill(69)', 'Refill(69)', 'Move(69,76)', 'Clean(76)', 'Move(76,69)', 'Refill(69)', 'Refill(69)', 'Move(69,17)', 'Clean(17)', 'Move(17,69)', 'Refill(69)', 'Refill(69)', 'Move(69,72)', 'Move(72,41)', 'Clean(41)', 'Move(41,72)', 'Move(72,69)', 'Refill(69)', 'Refill(69)', 'Move(69,17)', 'Move(17,5)', 'Move(5,42)', 'Move(42,25)', 'Clean(25)', 'Move(25,42)', 'Move(42,5)', 'Move(5,17)', 'Move(17,69)', 'Refill(69)', 'Refill(69)', 'Move(69,17)', 'Move(17,73)', 'Clean(73)', 'Move(73,17)', 'Move(17,44)', 'Move(44,47)', 'Clean(47)', 'Move(47,44)', 'Move(44,69)', 'Refill(69)', 'Refill(69)', 'Move(69,44)', 'Move(44,38)', 'Clean(38)', 'Move(38,44)', 'Move(44,69)', 'Refill(69)', 'Refill(69)', 'Move(69,44)', 'Move(44,88)', 'Clean(88)', 'Move(88,44)', 'Move(44,69)', 'Refill(69)', 'Refill(69)', 'Move(69,72)', 'Move(72,41)', 'Move(41,48)', 'Clean(48)', 'Move(48,41)', 'Move(41,21)', 'Move(21,71)', 'Clean(71)', 'Move(71,83)', 'Move(83,29)', 'Clean(29)', 'Move(29,76)', 'Move(76,69)', 'Refill(69)', 'Refill(69)', 'Move(69,44)', 'Move(44,88)', 'Move(88,3)', 'Move(3,89)', 'Clean(89)', 'Move(89,3)', 'Move(3,88)', 'Move(88,44)', 'Move(44,38)', 'Move(38,21)', 'Move(21,33)', 'Move(33,58)', 'Move(58,63)', 'Clean(63)', 'Move(63,5)', 'Move(5,17)', 'Move(17,69)', 'Refill(69)', 'Refill(69)', 'Move(69,17)', 'Move(17,5)', 'Move(5,42)', 'Move(42,25)', 'Move(25,92)', 'Clean(92)']
+
+Final robot reward: 997
+
+Test 4 passed
+
+#######################################################
+
+4/5 tests passed succesfully
