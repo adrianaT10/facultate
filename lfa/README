@@ -1,0 +1,19 @@
+﻿Nume: TUFĂ Adriana
+Grupa: CA333
+
+  Parsarea fisierului cu automatul am facut-o dupa fiecare stare/ simbol in
+parte. Dupa depistarea unei stari, tranzitii sau simbol, o adaug in obiectul
+de tip Graph. Orice nu se potriveste regulilor intra intr-o stare de eroare si
+genereaza eroare sintactica.
+  Clasa Graph contine noduri corespunzatoare starilor, arce corespunzatoare
+tranzitiilor citite si alfabetul. Arcele le-am retinut sub forma de hashmap, 
+cheia fiind un simbol iar valoarea, urmatorul nod. La adaugarea unei tranzitii
+verific daca starea exista deja, caz care genereaza eroare semantica. Dupa ce
+am citit tot fisierul, verific daca fiecare nod are tranzitii pentru toate 
+simbolurile din alfabet sau daca am vreo eroare semantica generata de stari
+duplicate sau absenta unei stari initiale. 
+  Citirea input-ului o fac in starea WORD, citind caractere pana intalnesc
+un separator. Pentru string-ul citit, pornind pe rand de pe fiecare litera din 
+acesta, merg pe graf din starea initiala pe tranzitii conform input-ului si de 
+fiecare data cand ma aflu intr-o stare finala, afisez substring-ul aferent si 
+merg mai departe. 
